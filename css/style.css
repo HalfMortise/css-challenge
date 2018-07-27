@@ -69,7 +69,7 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 #header {
-	display: block;
+	display: inline-block;
 	background-color: #363637;
 	color: lawngreen;
 	text-align: center;
@@ -125,19 +125,13 @@ body { width: 100%;}
 	font-style: italic;
 }
 
-#contact {
-	padding: 1.5em;
-	display: inline-block;
-	position: relative;
-	background-color: #12730c;
-	color: lawngreen;
-}
 
 h2 {
 	text-align: right;
 }
 
 #skillz {
+	display: inline-flex;
 	align-items: right;
 	margin: 5%;
 	padding: 1em;
@@ -146,4 +140,39 @@ h2 {
 	background-color: #363637;
 	color: lawngreen;
 	text-align: left;
+}
+
+tr {
+	margin: .01em;
+	border: .01em solid white;
+	text-align: left;
+	padding-bottom: .05em;
+	padding-left:  .05em;
+	padding-right:  .05em;
+	padding-top:  .05em;
+}
+
+td {
+	margin: .01em;
+	border: .01em solid white;
+	text-align: left;
+	padding-bottom: .05em;
+	padding-left:  .05em;
+	padding-right:  .05em;
+	padding-top:  .05em;
+}
+
+#contact {
+	display: inline-flex;
+}
+
+.contact-container {
+	align-items: center;
+}
+
+.form-wrapper {
+	align-content: center;
+	padding: 1.5em;
+	background-color: #12730c;
+	color: lawngreen;
 }
