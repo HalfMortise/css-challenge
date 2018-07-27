@@ -168,7 +168,9 @@ form {
 	line-height: 3em;
 }
 
-
+#contact {
+	background-color: #363637;
+}
 
 .contact-container {
 	margin: auto;
