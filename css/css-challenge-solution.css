@@ -1,0 +1,140 @@
+/***********
+Header
+***********/
+
+header {
+	background-color: #303030;
+	color: lawngreen;
+	text-align: center;
+}
+
+header h1 {
+	display: inline-block;
+	margin-right: 1.5rem;
+	font-size: 2.5rem;
+}
+/***********
+Welcome
+***********/
+
+#garish {
+	text-align: center;
+}
+
+/***********
+Instructions
+***********/
+
+.instructions-wrapper {
+	display: flex;
+	border: .4rem solid black;
+	height: 10em;
+	width: 65em;
+	padding: 3em;
+	text-align: left;
+	font-family: Consolas, sans-serif;
+}
+
+.instructions-content {
+	flex: 1;
+	padding-right: 2rem;
+}
+
+#janeway {
+	display: block;
+	margin: 0 auto 2rem;
+	max-width: 200px;
+}
+.instructions-content h2 {
+	margin-top: 0;
+}
+
+/***********
+About Me
+***********/
+
+section.about-me {
+	background-color: blue;
+	color: white;
+}
+
+.about-me img {
+	width: 300px;
+	float: left;
+	border: 3px solid white;
+	margin-right: 2rem;
+}
+
+.about-me span {
+	color: yellow;
+	font-style: italic;
+}
+
+/***********
+n-th child allows you to choose elements further down the line (inclusive or exclusive)
+***********/
+section:nth-child(4) h2 {
+	text-align: right;
+	margin: 0;
+}
+
+section:nth-child(4) table {
+	width: 80%;
+	padding: 20px;
+}
+
+section:nth-child(4) table td,
+section:nth-child(4) table th,
+section:nth-child(4) table tr {
+	background-color: #303030;
+	color: limegreen;
+	padding: 8px;
+	font-family: Courier, sans-serif;
+	text-align: left;
+}
+
+div.sfooter-content section:last-child {
+	background-color: #303030;
+}
+
+/***********
+Contact Me
+***********/
+
+.form-wrapper {
+	background-color: darkgreen;
+	color: lime;
+	padding: 20px;
+}
+
+label {
+	display: flex;
+	margin: 15px 0 5px 0;
+	font-family: Consolas, sans-serif;
+}
+
+input, textarea {
+	width: 20%;
+	padding: 5px;
+}
+
+button {
+	background-color: limegreen;
+	padding: 1px 20px;
+	margin: 10px 0px 0px 3px;
+	border: none;
+}
+
+form div:nth-child(4) {
+	margin-bottom: 15px;
+}
+
+.form-wrapper h2 {
+	margin-top: 0;
+	font-family: Consolas, sans-serif;
+}
+
+/***********
+Footer
+***********/
+
