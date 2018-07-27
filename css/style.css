@@ -69,6 +69,7 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 #header {
+	display: block;
 	background-color: #363637;
 	color: lawngreen;
 	text-align: center;
@@ -111,6 +112,27 @@ body { width: 100%;}
 	margin: .2em;
 }
 
-.about-me {
+.about-me-container {
+	margin-top: 3em;
+	background-color: #1b21c6;
+	color: white;
+	padding: 3%;
+
+}
+
+.about-me p span {
+	color: #c0c671;
+	font-style: italic;
+}
+
+#contact {
+	padding: 1.5em;
+	display: inline-block;
+	position: relative;
+	background-color: #12730c;
+	color: lawngreen;
+}
+
+.form-wrapper {
 
 }
