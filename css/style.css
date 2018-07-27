@@ -133,6 +133,17 @@ body { width: 100%;}
 	color: lawngreen;
 }
 
-.form-wrapper {
+h2 {
+	text-align: right;
+}
 
+#skillz {
+	align-items: right;
+	margin: 5%;
+	padding: 1em;
+	width: 60%;
+	border: 1px solid #000;
+	background-color: #363637;
+	color: lawngreen;
+	text-align: left;
 }
