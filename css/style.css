@@ -168,11 +168,10 @@ form {
 	line-height: 3em;
 }
 
-#contact {
-	display: inline-flex;
-}
+
 
 .contact-container {
+	max-width: 60%;
 	align-items: center;
 }
 
