@@ -171,15 +171,18 @@ form {
 
 
 .contact-container {
-	max-width: 60%;
-	align-items: center;
+	margin: auto;
+	width: 60%;
+	padding: 5em;
+	background-color: #363637;
 }
 
 .form-wrapper {
-	align-content: center;
-	padding: 1.5em;
-	background-color: #12730c;
+	background-color: forestgreen;
 	color: lawngreen;
+	max-width: 100%;
+	position: relative;
+
 }
 
 button {
